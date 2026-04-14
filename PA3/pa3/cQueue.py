@@ -54,7 +54,7 @@ class CircularQueue:
         return self.arr[rear]
 
 if __name__ == "__main__":
-    q = myQueue(5)
+    q = CircularQueue(5)
     q.enqueue(10)
     q.enqueue(20)
     q.enqueue(30)
